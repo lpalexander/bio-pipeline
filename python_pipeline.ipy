@@ -10,6 +10,8 @@ h = np.empty((8,12))
 for i in range(8):
     h[i] = g[i+1].split(',')[1:]
 
+#lauren change
+
 imshow(h)
 colorbar()
 
